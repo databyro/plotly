@@ -2,8 +2,8 @@ library(plotly)
 library(zoo)
 library(readxl)
 
-Sys.setenv("plotly_username"="julius.lauri.lehtinen")
-Sys.setenv("plotly_api_key"="w1bGHsPL3zejCn7XCH0o")
+Sys.setenv("plotly_username"="xxxxx")
+Sys.setenv("plotly_api_key"="xxxxx")
 
 keskColor = '#01954B'
 kokColor = '#006288'
@@ -16,7 +16,7 @@ kdColor = '#18359B'
 sinColor = '#003680'
 liikColor = '#ae2375'
 
-X2019_23 <- read_excel("C:/Users/Julius/Setit/Databyro/excel ja R/excelit/2019-23.xlsx")
+X2019_23 <- read_excel("tietokannan sijainti")
 data = X2019_23
 date = X2019_23$date
 kok = X2019_23$Kok
